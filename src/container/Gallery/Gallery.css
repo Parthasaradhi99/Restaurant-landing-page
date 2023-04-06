@@ -1,0 +1,10 @@
+.app__gallery {
+    background-color: var(--color-black);
+}
+
+.app__gallery_info {
+    padding : 2rem 0 2rem 7rem;
+}
+.app__gallery_info p{
+    margin-bottom: 1rem;
+}

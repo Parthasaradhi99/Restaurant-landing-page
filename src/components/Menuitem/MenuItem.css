@@ -1,0 +1,39 @@
+.app__menuItem {
+    color: white;
+    margin : 0.8rem auto;
+    width: 100%;
+}
+
+.app__menuItem-item_title {
+    font-size: 1.5rem;
+    color: var(--color-golden);
+    font-family: var(--font-base);
+    margin-bottom: 0.5rem;
+}
+
+.app__menuItem-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app_menuItem-tags {
+    color: var(--color-grey);
+    font-size: 1rem;
+}
+.line {
+    width: 60px;
+    height: 1px;
+    background-color: white;
+}
+
+.app__menuItem-item_price {
+    text-align: right;
+}
+
+@media screen and (max-width : 1150px) {
+    .app__menuItem-item_title {
+        font-size: 1.5rem;
+    }
+}
